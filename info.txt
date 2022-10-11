@@ -1,0 +1,16 @@
+Bit Shifting
+
+If you multiply, then the operations will move/shift the numbers to the left
+
+	253 * 10 = 2530
+	418 * 1000 = 418000
+
+If you divide, then the operations will move/shift the numbers to the right
+
+	458 / 10 = 048
+	820 / 1000 = 000
+	172 / 100 = 001
+
+This applies to base 10 and of course base 2.
+
+Really Useful in Game Development
