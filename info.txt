@@ -14,3 +14,8 @@ If you divide, then the operations will move/shift the numbers to the right
 This applies to base 10 and of course base 2.
 
 Really Useful in Game Development
+
+-Arithmetic and Logical Bit Shifting: Binary Numbers can be represented in signed and unsigned way. Unsigned Binary Numbers do not have sign bit, whereas signed binary numbers uses signed bit as well or these can be distinguishable between positive and negative numbers. A signed binary is a specific data type of a signed variable. Example:	11010011 - this Binary Number means that is negative or signed. Example 2: 00110011 - This Binary Number means that is positive or unsigned. 
+
+
+If we have the binary number 10101100 and we use right bit shift operation >>, we are changing the value of the number to a positive or unsigned number and we call this logical shifting 01010011
