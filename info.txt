@@ -19,3 +19,12 @@ Really Useful in Game Development
 
 
 If we have the binary number 10101100 and we use right bit shift operation >>, we are changing the value of the number to a positive or unsigned number and we call this logical shifting 01010011
+
+
+When to use Bit Shifting:
+
+-It completely depends on target device, language, purpose , etc. If we are implementing business solutions, we probably do not have to worry about these things.
+
+-As a rule of thump, do not use it unless you are absolutely sure that there is a performance gain (Modern Compilers usually optimize this).
+
+-Prefer Code Readability, Bit Shifting has an obscure syntax, and not everyone in your team understand what it does.
